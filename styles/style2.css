@@ -111,7 +111,7 @@ width:calc(50% - 50px);
 
 .form_area dd {
   width: calc(100% - 220px);
-  padding: 15px 0;
+  padding: 13px 0;
 }
 
 .form_area dt .required::after {
@@ -141,12 +141,12 @@ width:calc(50% - 50px);
 }
 
 .submit_button {
-  background-color: rgb(121, 225, 152);
-  display: inline-block;
+  background-color: whitesmoke;
+  display: block;
   min-width: 200px;
   line-height: 50px;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 10px;
   font-size: 15px;
   text-align: center;
   margin: 20px 0 40px;
@@ -154,7 +154,7 @@ width:calc(50% - 50px);
 }
 
 .submit_button:hover {
-  background-color: rgb(90, 167, 114);
+  background-color: rgb(56, 64, 112);
 }
 
 @media (max-width: 780px) {
@@ -175,7 +175,7 @@ width:calc(50% - 50px);
   }
 
   .submit_button {
-    width: 100%;
+    width: 10%;
   }
 
 }
